@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./styles/index.css" rel="stylesheet" />
+		<link href="./styles/style.css" rel="stylesheet" />
+		<title>Tailwind sample</title>
+	</head>
+	<body>
+		<div class="container mx-auto max-w-6xl">
+			<header class="container mx-auto flex flex-col mb-12">
+				<div class="h-14 bg-emerald-500"></div>
+				<div
+					class="text-center m-auto border-4 border-slate-900 max-w-xl m-0 place-self-center py-12 px-24 mt-[-25px]"
+				>
+					<p class="font-bold uppercase text-4xl mb-6">Sophie Alpert</p>
+					<p
+						class="inline-block text-xl bg-black text-white max-w-xs py-px px-5 uppercase"
+					>
+						Programmer
+					</p>
+				</div>
+			</header>
+
+			<main>
+				<div class="container mx-auto">
+					<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+						<section class="lg:col-span-2 order-1 lg:order-2">
+							<h1 class="mt-5 text-2xl font-bold text-black uppercase mb-3">
+								About me
+							</h1>
+							<hr
+								class="before:block before:w-12 before:h-3 before:bg-emerald-500 before:absolute before:left-0 before:top-[-4px] relative overflow-visible h-1 border-none bg-slate-300 mb-2"
+							/>
+							<p class="text-base mt-5">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+								provident aperiam. Id quia omnis fugit assumenda sit, similique
+								pariatur sunt temporibus amet dolores asperiores corporis ipsam
+								porro. Blanditiis, praesentium! Deleniti officiis tenetur eum
+								porro temporibus exercitationem ipsum sint magni nesciunt cum
+								minima id aliquid totam animi unde quod, aspernatur quos
+								consequatur culpa provident inventore vero maiores aperiam
+								consequuntur. Omnis fugiat nisi quod possimus cumque in vel. Ad
+								suscipit eius similique placeat enim quae nemo atque dolores,
+								necessitatibus mollitia iste rerum!
+							</p>
+						</section>
+						<section class="lg:col-span-1 order-2 lg:order-1">
+							<h1 class="mt-5 text-2xl font-bold text-black uppercase mb-3">
+								Links
+							</h1>
+							<hr
+								class="before:block before:w-12 before:h-3 before:bg-emerald-500 before:absolute before:left-0 before:top-[-4px] relative overflow-visible h-1 border-none bg-slate-300 mb-2"
+							/>
+							<ul class="mt-2.5 list-none mt-5">
+								<li class="flex flex-row mb-3.5">
+									<a
+										href="https://www.linkedIn.com/"
+										class="flex text-center items-center font-bold"
+										><img
+											src="images/linkedIn.png"
+											alt=""
+											class="mr-1.5"
+										/>LINKEDIN/username</a
+									>
+								</li>
+								<li class="flex flex-row mb-3.5">
+									<a
+										href="https://www.Twitter.com/"
+										class="flex text-center items-center font-bold"
+										><img
+											src="images/Twitter.png"
+											alt=""
+											class="mr-1.5"
+										/>TWITTER/@user@-handle</a
+									>
+								</li>
+								<li class="flex flex-row mb-3.5">
+									<a
+										href="https://www.Github.com/"
+										class="flex text-center items-center font-bold"
+										><img
+											src="images/Github.png"
+											alt=""
+											class="mr-1.5"
+										/>GITHUB/username</a
+									>
+								</li>
+								<li class="flex flex-row mb-3.5">
+									<a
+										href="https://www.dev-blog.com/"
+										class="flex text-center items-center font-bold"
+										><img
+											src="images/Dev.png"
+											alt=""
+											class="mr-1.5"
+										/>BLOG/blog-name</a
+									>
+								</li>
+							</ul>
+						</section>
+					</div>
+
+					<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+						<section class="">
+							<h1 class="mt-5 text-2xl font-bold text-black uppercase mb-3">
+								Education
+							</h1>
+							<hr
+								class="before:block before:w-12 before:h-3 before:bg-emerald-500 before:absolute before:left-0 before:top-[-4px] relative overflow-visible h-1 border-none bg-slate-300 mb-2"
+							/>
+							<div class="education-top-content mt-5">
+								<p class="text-lg font-semibold">SCHOOL NAME</p>
+								<p class="text-lg font-semibold">2009 - 2013</p>
+								<p class="text-lg font-semibold">Degree</p>
+							</div>
+							<hr class="h-0.5 w-48 border-none bg-slate-300 my-2.5" />
+							<div class="education-bottom-content">
+								<p class="text-lg font-semibold">SCHOOL NAME</p>
+								<p class="text-lg font-semibold">2009 - 2013</p>
+								<p class="text-lg font-semibold">Degree</p>
+							</div>
+						</section>
+						<section class="personal-skills section">
+							<h1 class="mt-5 text-2xl font-bold text-black uppercase mb-3">
+								Personal Skills
+							</h1>
+							<hr
+								class="before:block before:w-12 before:h-3 before:bg-emerald-500 before:absolute before:left-0 before:top-[-4px] relative overflow-visible h-1 border-none bg-slate-300 mb-2"
+							/>
+							<div class="mt-5 max-w-fit">
+								<p class="bg-emerald-500 py-0.5 px-2.5 rounded-2xl">Teamwork</p>
+							</div>
+							<div class="mt-5 max-w-fit">
+								<p class="bg-amber-300 py-0.5 px-2.5 rounded-2xl">
+									Communication
+								</p>
+							</div>
+							<div class="mt-5 max-w-fit">
+								<p class="bg-red-400 py-0.5 px-2.5 rounded-2xl">Organization</p>
+							</div>
+						</section>
+						<section class="technical-skills section">
+							<h1 class="mt-5 text-2xl font-bold text-black uppercase mb-3">
+								Technical Skills
+							</h1>
+							<hr
+								class="before:block before:w-12 before:h-3 before:bg-emerald-500 before:absolute before:left-0 before:top-[-4px] relative overflow-visible h-1 border-none bg-slate-300 mb-2"
+							/>
+							<div class="mt-5 max-w-fit">
+								<p class="bg-emerald-500 py-0.5 px-2.5 rounded-2xl">Html</p>
+							</div>
+							<div class="mt-5 max-w-fit">
+								<p class="bg-emerald-500 py-0.5 px-2.5 rounded-2xl">Css/scss</p>
+							</div>
+							<div class="mt-5 max-w-fit">
+								<p class="bg-amber-300 py-0.5 px-2.5 rounded-2xl">Javascript</p>
+							</div>
+							<div class="mt-5 max-w-fit">
+								<p class="bg-amber-300 py-0.5 px-2.5 rounded-2xl">React.js</p>
+							</div>
+						</section>
+					</div>
+				</div>
+				<section class="container mx-auto">
+					<h1 class="mt-5 text-2xl font-bold text-black uppercase mb-3">
+						Work experience
+					</h1>
+					<hr
+						class="before:block before:w-12 before:h-3 before:bg-emerald-500 before:absolute before:left-0 before:top-[-4px] relative overflow-visible h-1 border-none bg-slate-300 mb-2"
+					/>
+					<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+						<div class="border-r-2 px-4 mt-5 mb-10 sm:border-r-none">
+							<div class="text-center leading-6 mb-4">
+								<p class="work-exp-job-title text-base font-semibold uppercase">
+									Job position
+								</p>
+								<p>Company</p>
+								<p>2018 - present</p>
+							</div>
+							<div class="text-justify leading-7">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Repudiandae quaerat itaque ipsa amet et accusantium deleniti
+									ipsam, quibusdam necessitatibus cumque!
+								</p>
+								<ul>
+									<li class="list-disc ml-5">Lorem, ipsum dolor.</li>
+									<li class="list-disc ml-5">Lorem, ipsum dolor.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="border-r-2 px-4 mt-5 mb-10 sm:border-r-none">
+							<div class="text-center leading-6 mb-4">
+								<p class="work-exp-job-title text-base font-semibold uppercase">
+									Job position
+								</p>
+								<p>Company</p>
+								<p>2018 - present</p>
+							</div>
+							<div class="text-justify leading-7">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Repudiandae quaerat itaque ipsa amet et accusantium deleniti
+									ipsam, quibusdam necessitatibus cumque!
+								</p>
+								<ul>
+									<li class="list-disc ml-5">Lorem, ipsum dolor.</li>
+									<li class="list-disc ml-5">Lorem, ipsum dolor.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="px-4 mt-5 mb-10">
+							<div class="text-center leading-6 mb-4">
+								<p class="work-exp-job-title text-base font-semibold uppercase">
+									Job position
+								</p>
+								<p>Company</p>
+								<p>2018 - present</p>
+							</div>
+							<div class="text-justify leading-7">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Repudiandae quaerat itaque ipsa amet et accusantium deleniti
+									ipsam, quibusdam necessitatibus cumque!
+								</p>
+								<ul>
+									<li class="list-disc ml-5">Lorem, ipsum dolor.</li>
+									<li class="list-disc ml-5">Lorem, ipsum dolor.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="container mx-auto">
+				<hr class="h-1 border-none bg-slate-300 my-5" />
+				<section
+					class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 my-8"
+				>
+					<div class="text-center flex flex-col">
+						<p class="text-xl bg-black text-white uppercase mx-20">Location</p>
+						<p class="mt-2 font-semibold">Porto, Portugal</p>
+					</div>
+					<div class="text-center flex flex-col">
+						<p class="text-xl bg-black text-white uppercase mx-20">Contact</p>
+						<a
+							href="tel:+370600000333"
+							class="mt-2 font-semibold active:text-emerald-500 focus:text-emerald-500 hover:text-emerald-500"
+							>+370600000333</a
+						><br />
+						<a
+							href="mailto: email@test.dev"
+							class="mt-[-20px] font-semibold active:text-emerald-500 focus:text-emerald-500 hover:text-emerald-500"
+							>email@test.dev</a
+						>
+					</div>
+					<div class="text-center flex flex-col">
+						<p class="text-xl bg-black text-white uppercase mx-20">Social</p>
+						<a
+							href="https://www.linkedin.com/"
+							class="mt-2 font-semibold active:text-emerald-500 focus:text-emerald-500 hover:text-emerald-500"
+							>Linkedin/username</a
+						><br />
+						<a
+							href="https://www.Twitter.com/"
+							class="mt-[-20px] font-semibold active:text-emerald-500 focus:text-emerald-500 hover:text-emerald-500"
+							>Twitter/@user-handle</a
+						>
+					</div>
+				</section>
+			</footer>
+		</div>
+	</body>
+</html>
